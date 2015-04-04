@@ -250,7 +250,8 @@ namespace PrintOrderingSystem
                     if (totOrdValue > 35) totOrdValue = totOrdValue - totOrdValue * (decimal).05;
 
                 }
-                totalPrice.Text = "$" + totOrdValue.ToString();
+                //totalPrice.Text = "$" + totOrdValue.ToString();
+                totalPrice.Text = "$" + Math.Round(totOrdValue, 2).ToString();
                 
             }
 
