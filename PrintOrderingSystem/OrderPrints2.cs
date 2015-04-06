@@ -204,6 +204,15 @@ namespace PrintOrderingSystem
                         }
                     }
 
+                    if (!promoCodeTextBox.Text.Equals("") && !promoCodeTextBox.Text.Equals("N56M2"))
+                    {
+                        MessageBox.Show("The promo code you have entered is invalid.",
+                       "Critical Warning",
+                       MessageBoxButtons.OK,
+                       MessageBoxIcon.Exclamation,
+                       MessageBoxDefaultButton.Button1
+                      );
+                    }
                     if (promoCodeTextBox.Text.Equals("N56M2") && total == 100)
                     {
                         totOrdValue -= (decimal)2;
@@ -211,7 +220,7 @@ namespace PrintOrderingSystem
                     else if (totOrdValue > 35)
                     {
                         totOrdValue = totOrdValue - totOrdValue * (decimal).05;
-
+                        //totOrdValue = totOrdValue - totOrdValue * (decimal).0555; //Fault 3
                     }
 
 
@@ -250,7 +259,7 @@ namespace PrintOrderingSystem
                     if (totOrdValue > 35) totOrdValue = totOrdValue - totOrdValue * (decimal).05;
 
                 }
-                //totalPrice.Text = "$" + totOrdValue.ToString();
+                //totalPrice.Text = "$" + totOrdValue.ToString(); //Fault 1
                 totalPrice.Text = "$" + Math.Round(totOrdValue, 2).ToString();
                 
             }
@@ -314,6 +323,16 @@ namespace PrintOrderingSystem
             {
                 totValue = tQ * (decimal)0.14;
             }
+
+            //if (tQ > 0 && tQ < 56) //Fault 2
+            //{
+            //    totValue = tQ * (decimal)0.14;
+            //}
+
+            //if (tQ > 56 && tQ < 76) //Fault 2
+            //{
+            //    totValue = tQ * (decimal)0.12;
+            //}
 
             if (tQ > 50 && tQ < 76)
             {
