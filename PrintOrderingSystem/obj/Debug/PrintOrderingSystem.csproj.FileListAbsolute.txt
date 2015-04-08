@@ -19,3 +19,14 @@ C:\Users\Vinod\Documents\GitHub\6270\PrintOrderingSystem-Group3\PrintOrderingSys
 C:\Users\Vinod\Documents\GitHub\6270\PrintOrderingSystem-Group3\PrintOrderingSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.Welcome.resources
 C:\Users\Vinod\Documents\GitHub\6270\PrintOrderingSystem-Group3\PrintOrderingSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.csproj.GenerateResource.Cache
 C:\Users\Vinod\Documents\GitHub\6270\PrintOrderingSystem-Group3\PrintOrderingSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.OrderPrints2.resources
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\bin\Debug\PrintOrderingSystem.exe.config
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.exe
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.pdb
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\bin\Debug\PrintOrderingSystem.exe
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\bin\Debug\PrintOrderingSystem.pdb
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.csprojResolveAssemblyReference.cache
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.OrderPrints1.resources
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.OrderPrints2.resources
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.Properties.Resources.resources
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.Welcome.resources
+C:\Users\linds_000\Documents\GitHub\PrintOrderSystem\PrintOrderingSystem\obj\Debug\PrintOrderingSystem.csproj.GenerateResource.Cache
