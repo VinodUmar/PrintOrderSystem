@@ -219,8 +219,8 @@ namespace PrintOrderingSystem
                     }
                     else if (totOrdValue > 35)
                     {
-                        totOrdValue = totOrdValue - totOrdValue * (decimal).05;
-                        //totOrdValue = totOrdValue - totOrdValue * (decimal).0555; //Fault 3
+                        //totOrdValue = totOrdValue - totOrdValue * (decimal).05;
+                        totOrdValue = totOrdValue - totOrdValue * (decimal).0555; //f3
                     }
 
 
@@ -259,8 +259,8 @@ namespace PrintOrderingSystem
                     if (totOrdValue > 35) totOrdValue = totOrdValue - totOrdValue * (decimal).05;
 
                 }
-                //totalPrice.Text = "$" + totOrdValue.ToString(); //Fault 1
-                totalPrice.Text = "$" + Math.Round(totOrdValue, 2).ToString();
+                totalPrice.Text = "$" + totOrdValue.ToString(); //f1
+                //totalPrice.Text = "$" + Math.Round(totOrdValue, 2).ToString();
                 
             }
 
@@ -319,25 +319,25 @@ namespace PrintOrderingSystem
             decimal tQ = printOrd;
             decimal totValue = 0;
 
-            if (tQ > 0 && tQ < 51)
-            {
-                totValue = tQ * (decimal)0.14;
-            }
-
-            //if (tQ > 0 && tQ < 56) //Fault 2
+            //if (tQ > 0 && tQ < 51)
             //{
             //    totValue = tQ * (decimal)0.14;
             //}
 
-            //if (tQ > 56 && tQ < 76) //Fault 2
-            //{
-            //    totValue = tQ * (decimal)0.12;
-            //}
+            if (tQ > 0 && tQ < 56) //f2
+            {
+                totValue = tQ * (decimal)0.14;
+            }
 
-            if (tQ > 50 && tQ < 76)
+            if (tQ > 55 && tQ < 76) //f2
             {
                 totValue = tQ * (decimal)0.12;
             }
+
+            //if (tQ > 50 && tQ < 76)
+            //{
+            //    totValue = tQ * (decimal)0.12;
+            //}
 
             if (tQ > 75 && tQ < 101)
             {
